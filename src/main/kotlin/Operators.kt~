@@ -1,0 +1,29 @@
+package org.essoft
+
+fun main() {
+    var m = 5
+    println(m)
+    m += 1;
+    println(m)
+    m++
+    println(m)
+    m--
+    println(m)
+    m += 5
+    println(m)
+    m -= 5
+    println(m)
+    m *= 5
+    println(m)
+    m /= 5
+    println(m)
+    m %= 5
+    println(m)
+
+    var n = 7
+
+    // &&
+    // ||
+    println(n>m && n<m)
+    println(n>m || n<m)
+}
