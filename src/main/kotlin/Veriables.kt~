@@ -1,0 +1,40 @@
+package org.essoft
+
+
+fun main() {
+    // veriables
+    var x = 5;
+    var y = 4;
+
+    println(x * y)
+
+    var age = 35
+    println(age / 7 * 5)
+
+    val result = age / 7 * 5
+    println(result)
+
+    age = 36
+
+    println(age)
+
+    // constants
+
+    val name = "Ertan"
+    // name = "Sidar" -> Val cannot be reassigned
+    val aa = 5;
+
+    // Defining
+    var myInteger : Int
+
+    // Initialize
+    myInteger = 5
+    // myInteger = 6 -> Val cannot be reassigned
+    // myInteger = "Ertan" -> Type mismatch.
+
+    val a: Int = 5
+
+    println(a/2)
+
+
+}
