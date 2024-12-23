@@ -30,4 +30,12 @@ fun main() {
     barley.test()
     barley.sign()
 
+    //abstract & interface
+    // var people = People() -> Cannot create an instance of an abstract class
+    var piano = Piano()
+    piano.brand = "Yamaha"
+    piano.digital = false
+    println(piano.roomName)
+    piano.info()
+
 }
