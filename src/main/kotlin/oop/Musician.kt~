@@ -1,0 +1,13 @@
+package org.essoft.oop
+
+class Musician {
+    var name : String? = null
+    var instrument : String? = null
+    var age : Int? = null
+
+    constructor(name: String, instrument: String, age: Int) {
+        this.name = name
+        this.instrument = instrument
+        this.age = age
+    }
+}
