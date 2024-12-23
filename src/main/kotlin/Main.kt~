@@ -1,6 +1,0 @@
-package org.essoft
-
-fun main() {
-    println("Hello World!")
-    println("hello from kotlin")
-}
