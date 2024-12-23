@@ -14,7 +14,6 @@ fun main() {
     //inheritance
     var lars = SuperMusician("Lars", "Drums", 65)
     println(lars.name)
-    lars.sing()
 
 
 }

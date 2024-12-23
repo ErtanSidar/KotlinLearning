@@ -1,6 +1,6 @@
 package org.essoft.oop
 
-class Musician(name: String, instrument: String, age: Int) {
+open class Musician(name: String, instrument: String, age: Int) {
 
     var name : String? = name
         private set
