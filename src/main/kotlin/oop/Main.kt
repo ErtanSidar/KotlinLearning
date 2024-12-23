@@ -16,5 +16,18 @@ fun main() {
     println(lars.name)
     lars.sing()
 
+    //polymorphism
+    var mathematics = Mathematics()
+    println(mathematics.sum())
+    println(mathematics.sum(5, 6))
+    println(mathematics.sum(7, 8, 9))
+
+    // dynamic polymorphism
+    var animal = Animal()
+    animal.sign()
+
+    var barley = Dog()
+    barley.test()
+    barley.sign()
 
 }
